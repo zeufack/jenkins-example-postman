@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker{image: 'postman/newman'}
+    docker { image 'postman/newman'}
   }
   stages {
     stage('run collection') {
